@@ -17,6 +17,55 @@ p {
 	height: 7em;
 	background-color: #003cb3;
 }
+/*--------------------------!!!!!!!!!!!!!!!!!!!!*/
+#nav-content{
+	font-size: 1.5em;
+	background-color: #003cb3;
+	position: relative;
+	top: -8.8em;
+	left: -1em;
+	list-style: none;
+}
+
+#nav-links{
+	font-size: 1em;
+	background-color: black;
+	position: relative;
+	top: -13em;
+	left: -1em;
+	list-style: none;
+	cursor: pointer;
+	color: white;
+	width: 20em;
+}
+
+#remove{
+	display: none;
+	position: relative;
+	left: 8em;
+	top: 0.5em;
+	color: white;
+	cursor: pointer;
+}
+
+#removeButton{
+	position: relative;
+	left: 7em;
+	font-size: 2em;
+	top: 0.5em;
+	color: white;
+	z-index: 20;
+	cursor: pointer;
+}
+
+.fa-bars:before{
+	cursor: pointer;
+}
+
+.dashboard{
+	cursor: pointer;
+}
+/*----------------------------------------*/
 @media only screen and (max-width: 1280px){
 	
 	#footerTxt2{
@@ -67,8 +116,8 @@ p {
 
 #logo{
 	position: relative;
-	top: 1em; 
-	left: 20%;
+	top: -17em; 
+	left: 60%;
 	width: 25em;
 	height: 7.5em;
 }
@@ -215,7 +264,7 @@ p {
 }
 
 #middleMoved2{
-	margin-top: -9em;
+	margin-top: -17em;
 }
 /*---------------------------------*/
 /*nav ul{
@@ -276,11 +325,11 @@ nav ul li a{
 	}
 
 	#logo2{
-	position: relative;
-	top: 3em; 
-	left: 13em;
-	width: 25em;
-	height: 7.5em;
+		position: relative;
+		top: 3em; 
+		left: 13em;
+		width: 25em;
+		height: 7.5em;
 	}
 
 	#header{
@@ -592,7 +641,7 @@ nav ul li a{
 	}
 
 	#middleMoved{
-		margin-top: 9.5em;
+		margin-top: 17.5em;
 	}
 }
 
